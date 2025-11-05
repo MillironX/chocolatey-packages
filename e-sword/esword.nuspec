@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>e-sword</id>
-    <version>14.1.0</version>
+    <version>14.5.0</version>
     <owners>MillironX</owners>
-    <packageSourceUrl>https://github.com/MillironX/chocolatey-packages</packageSourceUrl>
+    <packageSourceUrl
+        >https://github.com/MillironX/chocolatey-packages</packageSourceUrl>
 
     <!-- ============================== -->
 
@@ -15,15 +16,27 @@
     <authors>Rick Meyers</authors>
     <projectUrl>https://e-sword.net/</projectUrl>
     <iconUrl>https://www.e-sword.net/images/applogo.png</iconUrl>
-    <copyright>2024 Rick Meyers</copyright>
+    <copyright>2025 Rick Meyers</copyright>
     <docsUrl>https://e-sword.net/training.html</docsUrl>
     <tags>esword bible christianity</tags>
     <summary>The Sword of the LORD with an electronic edge</summary>
-    <description>e-Sword is a fast and effective way to study the Bible. e-Sword is feature rich and user friendly with more capabilities than you would expect in a free Bible study app.</description>
+    <description>
+        e-Sword is a fast and effective way to study the Bible. e-Sword is
+        feature rich and user friendly with more capabilities than you would
+        expect in a free Bible study app.
+    </description>
     <releaseNotes>
-      New **Convert to Reference Book** feature to turn a Topic Notes collection into a Reference Book for viewing on other devices with e‑Sword on them.
- 
-      You can now bulk **Export All Notes** from any of the editors in a variety of document types. This way you can use your notes wherever you want!
+        The **Editors** have been redesigned to make better use of their native
+        functionality. The **Right** (versus the Left) mouse button is now used
+        to access much of this functionality.
+
+        The **Random Startup Verse** feature has been redesigned to display
+        equipping and encouraging verses. This feature is enabled under the
+        Options menu.
+
+        Various third-party controls have been updated to current versions,
+        while some that are no longer being developed have been removed and/or
+        replaced.
     </releaseNotes>
   </metadata>
   <files>
