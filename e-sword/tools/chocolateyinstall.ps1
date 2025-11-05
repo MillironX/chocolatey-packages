@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://e-sword.net/files/e-sword_1410_setup.exe' # download url, HTTPS preferred
+$url        = 'https://e-sword.net/files/e-sword_1450_setup.exe' # download url, HTTPS preferred
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
